@@ -1,7 +1,0 @@
-const button = document.querySelector('#myButton');
-button.addEventListener('click', () => {
-  button.classList.add('css-animation');
-  setTimeout(() => {
-    button.classList.remove('css-animation');
-  }, 2000); // animation duration
-});
